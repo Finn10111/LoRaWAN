@@ -22,7 +22,7 @@ Setup a device in TheThingsNetwork console and change EUIs and KEYs in `src/conf
 
 You will need a working Raspberry Pi Pico development environment and the pico-sdk to compile this.
 
-    git clone https://github.com/Finn10111/LoRaWAN
+    git clone --recurse-submodules https://github.com/Finn10111/LoRaWAN
     cd LoRaWAN/pico-sx1262
     export PICO_SDK_PATH=/usr/share/pico-sdk/ # if not set yet
     cmake -DPICO_BOARD=pico

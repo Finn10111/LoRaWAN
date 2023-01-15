@@ -1,0 +1,3 @@
+[submodule "pico-sx1262/lib/LoRaMac-node"]
+	path = pico-sx1262/lib/LoRaMac-node
+	url = https://github.com/Lora-net/LoRaMac-node.git
